@@ -42,7 +42,7 @@ I have used singleton Design pattern for writing the data base classes and MS-Ac
   * Git/Github
   * VC++
   * Visual Studio Code
-  * Code Optimization and Debugging Skills
+  
 
 
   
