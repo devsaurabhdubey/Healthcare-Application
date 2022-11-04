@@ -20,7 +20,7 @@ CSingleton* CSingleton::getInstance()
 {
 	if (!bInstanceFlag)
 	{
-		CString sConnectionString = L"Driver={Microsoft Access Driver (*.mdb)};dbq=C:\\Users\\SD090047\\OneDrive - Cerner Corporation\\Documents\\DevCenterFinal\\CernerDb.mdb;defaultdir=C:\\Users\\SD090047\\OneDrive - Cerner Corporation\\Documents\\DevCenterFinal;driverid=25;fil=MS Access;filedsn=C:\\Users\\SD090047\\OneDrive - Cerner Corporation\\Documents\\DevCenterFinal\\CernerDb.mdb.dsn;pagetimeout=5;uid=admin;usercommitsync=Yes";
+		CString sConnectionString = L"Add your String";
 		instance = new CSingleton();
 		bInstanceFlag = TRUE;
 		instance->Open(NULL, false, false, sConnectionString);
